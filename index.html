@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putatoe - Your Potato E-Commerce Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Putatoe</h1>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                    <button class="voice-search-btn" onclick="startVoiceSearch()"><img src="Items/microphone new.jpg" alt="Voice Search"></button>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="mobile.html">Mobile Recharge</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Electricity Bill</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Putatoe</h1>
+            <p>One Solution</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="cart">
+        <div class="container">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <img src="Items/potatoes.jpg" alt="Potatoes">
+                <h3>Potatoes</h3>
+                <p class="price">25 Rupees/ kg</p>
+                <p class="description">Fresh organic potatoes</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a> </button>
+            </div>
+            <div class="product-card">
+                <img src="Items/onions.jpg" alt="Onions">
+                <h3>Onions</h3>
+                <p class="price">40 Rupees / kg</p>
+                <p class="description">Sweet and juicy onions</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <!-- Add more product cards here -->
+            <div class="product-card">
+                <img src="Items/Anik ghee.jpeg" alt="Anik Ghee">
+                <h3>Anik Ghee</h3>
+                <p class="price">Rupees 74</p>
+                <p class="description">Best quality ghee</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <div class="product-card">
+                <img src="Items/frooti.jpeg" alt="Frooti">
+                <h3>Frooti</h3>
+                <p class="price">Rupees 33</p>
+                <p class="description">Cold Drinks</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <div class="product-card">
+                <img src="Items/yellow-banana-fruit.jpg" alt="Banana">
+                <h3>Banana</h3>
+                <p class="price">Rupees 60 per dozen</p>
+                <p class="description">Fresh fruit</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <div class="product-card">
+                <img src="Items/mango.jpg" alt="Mango">
+                <h3>Mango</h3>
+                <p class="price">Rupees 60 / kg</p>
+                <p class="description">Fresh fruit</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <div class="product-card">
+                <img src="Items/pomegranate.jpg" alt="pomegranate">
+                <h3>Pomegranate</h3>
+                <p class="price">Rupees 300 / kg</p>
+                <p class="description">Fresh fruit</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+            <div class="product-card">
+                <img src="Items/pepsi.jpeg" alt="Pepsi">
+                <h3>Pepsi</h3>
+                <p class="price">Rupees 76</p>
+                <p class="description">Cold Drinks</p>
+                <button class="btn"><a href="cart.html"> Add to Cart</a></button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Chat section at the bottom -->
+     <div class="chat-button">
+        
+        <button class="chat-btn"><a href="chat.html">Chat</a> </button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Putatoe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #088504;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.voice-search-btn {
+    width: 15px; 
+    height: 25px; 
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.voice-search-btn img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 35px; 
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-image: url('vegetables.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.featured-products {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.featured-products h2 {
+    margin-bottom: 20px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 250px;
+    margin: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+}
+
+.product-card p {
+    margin-top: 10px;
+}
+
+
+.chat-button {
+    background-image: "Items/chat.jpg";
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; 
+}
+
+.chat-btn {
+   
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none; 
+}
+
+.chat-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.chat-box {
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#message-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+
+.chat-section {
+    margin-bottom: 20px; 
+}
+
+.chat-container {
+    min-height: 200px; 
+    max-height: 400px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
