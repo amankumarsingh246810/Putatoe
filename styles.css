@@ -37,8 +37,8 @@
 body {
     font-family: Arial, sans-serif;
 }
-.logo{
-    top: 80px;
+.container .logo{
+    top: 200px;
 }
 .container {
     
